@@ -1,0 +1,13 @@
+{
+    "name": "dismky/composer-testing",
+    "description": "hanya untuk testing composer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dismky\\ComposerTesting\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
