@@ -8,11 +8,11 @@ class MainController extends Controller
 {
     public function triggerForSync()
     {
-        return "Trigger For Hint Cuy" ;
+        return "Jangan Pernah Merasa Bosan Walaupun Belerick dan Gatot di Ban" ;
     }
 
     public function triggerForAsync()
     {
-        return "Trigger For Async Cuy" ;
+        return "Tapi Merasa Bosanlah Ketika Tidak Pernah MVP" ;
     }
 }
