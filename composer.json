@@ -1,13 +1,23 @@
 {
     "name": "dismky/composer-testing",
-    "description": "hanya untuk testing composer",
+    "description": "Hanya untuk testing trigger",
     "type": "library",
+    "minimum-stability": "stable",
     "license": "MIT",
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^10.0|^11.0"
+    },
     "autoload": {
         "psr-4": {
             "Dismky\\ComposerTesting\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dismky\\ComposerTesting\\TriggerServiceProvider"
+            ]
+        }
+    }
 }
